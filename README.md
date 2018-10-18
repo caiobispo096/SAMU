@@ -24,3 +24,23 @@ https://medium.com/trainingcenter/utilizando-o-fluxo-git-flow-e63d5e0d5e04
 
 # SEMPRE CRIE UMA BRANCH NOVA PARA MODIFICAR O CÓDIGO E NUNCA FAÇA UM GIT PUSH NA MASTER, POIS LÁ SE ENCONTRA O CÓDIGO FONTE.
 # SEMPRE DÊ GIT PULL PARA PUXAR CÓDIGOS QUE PODEM NÃO ESTAR NA SUA MASTER LOCAL.
+
+
+Instalar WAMP SERVER
+
+Criar banco de dados e colar script anexado ao projeto
+
+Alterar o arquivo conexao php:
+
+$servidor = 'localhost:3306';
+
+$usuario = 'root;
+
+$senha = '';
+
+Alterar elementos das paginas de usuarios para :
+
+SESSION['id']   
+
+['loginErro']
+
